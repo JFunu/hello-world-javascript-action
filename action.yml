@@ -5,6 +5,12 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
+  AWS_ACCESS_KEY:
+    description: 'Your aws access key'
+    required: true
+  DISTRIBUTION:
+    description: 'The cloudfront distribution id'
+    required: true
 outputs:
   time:
     description: 'The time we greeted you'
